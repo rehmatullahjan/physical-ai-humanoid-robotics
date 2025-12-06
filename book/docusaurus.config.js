@@ -10,10 +10,11 @@ baseUrl: '/',
   [
     'classic',
     {
-      docs: {
-        sidebarPath: require.resolve('./sidebars.js'),
-        routeBasePath: '/',
-      },
+     docs: {
+  sidebarPath: require.resolve('./sidebars.js'),
+  routeBasePath: '/',
+  homePageRoute: '/intro',
+},
       blog: false,
       theme: {
         customCss: require.resolve('./src/css/custom.css'),
