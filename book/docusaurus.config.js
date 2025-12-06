@@ -32,12 +32,6 @@ baseUrl: '/',
       copyright: 'Built for GIAIC Hackathon',
     },
   },
-  staticDirs: ['static'],
-  scripts: [
-    {
-      src: '/js/redirect.js',
-      async: true,
-    },
-  ],
+  
 };
 
