@@ -21,15 +21,28 @@ module.exports = {
       },
     ],
   ],
+}
+  module.exports = {
+  // ... all your existing config ...
   themeConfig: {
-    navbar: {
-      title: 'Physical AI Robotics',
-      logo: { alt: 'Logo', src: 'img/logo.svg' },
-      items: [{ href: 'https://your-railway-backend.railway.app/docs', label: 'API', position: 'right' }],
-    },
+    // ... navbar, footer config ...
+  },
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/',
+            to: '/intro',
+          },
+        ],
+      },
+    ],
+  ],
+
     footer: {
       style: 'dark',
       copyright: 'Built for GIAIC Hackathon',
     },
-  },
-};
+  }
