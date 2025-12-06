@@ -1,0 +1,25 @@
+{
+  "id": "humanoid-basics",
+  "title": "Humanoid Robotics Basics",
+  "description": "Learning Objectives",
+  "source": "@site/docs/humanoid-basics.md",
+  "sourceDirName": ".",
+  "slug": "/humanoid-basics",
+  "permalink": "/humanoid-basics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Humanoid Robotics Basics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Robotics",
+    "permalink": "/intro"
+  },
+  "next": {
+    "title": "Physical Systems & Actuators",
+    "permalink": "/physical-systems"
+  }
+}

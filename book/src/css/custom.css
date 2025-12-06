@@ -1,0 +1,4 @@
+html {--ifm-color-primary: #2563eb;--ifm-color-primary-dark: #1d4ed8;}
+.navbar {background: linear-gradient(90deg, #1e293b 0%, #334155 100%);}
+.markdown h1, .markdown h2, .markdown h3 {color: #1e293b;}
+code {background-color: #f1f5f9;padding: 2px 6px;border-radius: 3px;}

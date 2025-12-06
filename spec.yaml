@@ -1,0 +1,28 @@
+spec:
+  project_name: "physical-ai-humanoid-robotics"
+  description: "Complete course on humanoid robotics"
+
+book:
+  title: "Physical AI: Humanoid Robotics Course"
+  output_dir: "./book"
+  chapters:
+    - id: intro
+      title: "Introduction to Robotics"
+    - id: humanoid-basics
+      title: "Humanoid Robotics Basics"
+    - id: physical-systems
+      title: "Physical Systems & Actuators"
+    - id: programming-core
+      title: "Core Programming for Humanoids"
+    - id: robot-ai-integration
+      title: "AI Integration & Control"
+    - id: movement-dynamics
+      title: "Movement & Dynamics"
+
+backend:
+  output_dir: "./backend"
+  port: 8000
+
+metadata:
+  hackathon: "GIAIC Spec-Driven Hackathon 1"
+  version: "1.0.0"

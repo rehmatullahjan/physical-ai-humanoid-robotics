@@ -1,0 +1,25 @@
+{
+  "id": "programming-core",
+  "title": "Core Programming for Humanoids",
+  "description": "def movejoint(jointname, angle_degrees):",
+  "source": "@site/docs/programming-core.md",
+  "sourceDirName": ".",
+  "slug": "/programming-core",
+  "permalink": "/programming-core",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Core Programming for Humanoids"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physical Systems & Actuators",
+    "permalink": "/physical-systems"
+  },
+  "next": {
+    "title": "AI Integration & Control",
+    "permalink": "/robot-ai-integration"
+  }
+}

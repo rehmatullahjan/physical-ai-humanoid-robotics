@@ -1,0 +1,21 @@
+{
+  "id": "movement-dynamics",
+  "title": "Movement & Dynamics",
+  "description": "x = 100  # Initial x position",
+  "source": "@site/docs/movement-dynamics.md",
+  "sourceDirName": ".",
+  "slug": "/movement-dynamics",
+  "permalink": "/movement-dynamics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Movement & Dynamics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Integration & Control",
+    "permalink": "/robot-ai-integration"
+  }
+}

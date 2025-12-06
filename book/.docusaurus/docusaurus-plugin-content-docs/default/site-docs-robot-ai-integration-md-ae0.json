@@ -1,0 +1,25 @@
+{
+  "id": "robot-ai-integration",
+  "title": "AI Integration & Control",
+  "description": "API_ENDPOINT = \"https://api.example.com/sentiment\"",
+  "source": "@site/docs/robot-ai-integration.md",
+  "sourceDirName": ".",
+  "slug": "/robot-ai-integration",
+  "permalink": "/robot-ai-integration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "AI Integration & Control"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Programming for Humanoids",
+    "permalink": "/programming-core"
+  },
+  "next": {
+    "title": "Movement & Dynamics",
+    "permalink": "/movement-dynamics"
+  }
+}
