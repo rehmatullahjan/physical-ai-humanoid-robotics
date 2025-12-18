@@ -4,8 +4,10 @@ const prism = require('prism-react-renderer');
 const config = {
   title: 'Physical AI: Humanoid Robotics',
   tagline: 'Learn humanoid robotics from scratch',
-  url: 'https://yourusername.github.io',
-  baseUrl: '/',
+  url: 'https://rehmatullahjan.github.io',
+  baseUrl: '/physical-ai-humanoid-robotics/',
+  organizationName: 'rehmatullahjan',
+  projectName: 'physical-ai-humanoid-robotics',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
