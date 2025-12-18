@@ -1,0 +1,10 @@
+mcp
+qdrant-client
+sentence-transformers
+torch
+numpy
+markdown
+pyyaml
+
+streamlit
+watchdog
