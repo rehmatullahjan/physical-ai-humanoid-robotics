@@ -5,6 +5,7 @@ torch
 numpy
 markdown
 pyyaml
-
+fastapi
+uvicorn[standard]
 streamlit
 watchdog

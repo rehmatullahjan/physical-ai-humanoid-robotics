@@ -1,12 +1,18 @@
 {
+    "version": 2,
     "buildCommand": "cd book && npm install && npm run build",
     "outputDirectory": "book/build",
-    "installCommand": "cd book && npm install",
+    "installCommand": "npm install --prefix ./book",
     "framework": null,
-    "rewrites": [
+    "build": {
+        "env": {
+            "NODE_VERSION": "18"
+        }
+    },
+    "routes": [
         {
-            "source": "/:path*",
-            "destination": "/:path*"
+            "src": "/(.*)",
+            "dest": "/$1"
         }
     ]
 }

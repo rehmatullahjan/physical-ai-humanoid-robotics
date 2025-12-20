@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: physical-ai-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r rag_chatbot/requirements.txt && cd rag_chatbot && python indexer.py
+    startCommand: cd rag_chatbot && uvicorn api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
