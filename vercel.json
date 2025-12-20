@@ -1,18 +1,5 @@
 {
-    "version": 2,
-    "buildCommand": "cd book && npm install && npm run build",
-    "outputDirectory": "book/build",
-    "installCommand": "npm install --prefix ./book",
-    "framework": null,
-    "build": {
-        "env": {
-            "NODE_VERSION": "18"
-        }
-    },
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/$1"
-        }
-    ]
+    "github": {
+        "silent": true
+    }
 }
