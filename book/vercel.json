@@ -1,0 +1,9 @@
+{
+    "framework": "docusaurus",
+    "rewrites": [
+        {
+            "source": "/api/chat",
+            "destination": "/api/index.py"
+        }
+    ]
+}

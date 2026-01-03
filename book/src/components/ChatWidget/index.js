@@ -24,7 +24,9 @@ const Send = () => (
     </svg>
 );
 
-const API_URL = `http://${typeof window !== 'undefined' ? window.location.hostname : 'localhost'}:8000`;
+const API_URL = typeof window !== 'undefined' && window.location.hostname !== 'localhost'
+    ? '/api/chat'
+    : `http://${typeof window !== 'undefined' ? window.location.hostname : 'localhost'}:8000/search`;
 
 const SUGGESTIONS = [
     { label: 'Introduction', path: '/docs/intro' },

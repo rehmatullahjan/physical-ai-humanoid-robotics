@@ -4,7 +4,7 @@ const prism = require('prism-react-renderer');
 const config = {
   title: 'Physical AI: Humanoid Robotics',
   tagline: 'Learn humanoid robotics from scratch',
-  url: 'https://physical-ai-humanoid-robotics.vercel.app', // Will be updated with your actual Vercel URL
+  url: 'https://physical-ai-humanoid-robotics.vercel.app',
   baseUrl: '/',
   organizationName: 'rehmatullahjan',
   projectName: 'physical-ai-humanoid-robotics',
