@@ -39,28 +39,27 @@ This script will:
 ### Option 2: Manual Run
 
 #### 1. Start the Backend (ChatBrain)
-```bash
-# Navigate to the chatbot directory
-cd rag_chatbot
+Physical AI: Humanoid Robotics Course
+GIAIC Spec-Driven Hackathon Project
 
-# Create/Activate Virtual Environment (optional but recommended)
-python -m venv venv
-.\venv\Scripts\activate  # Windows
-# source venv/bin/activate # Mac/Linux
+## 🚀 One-URL Deployment (Vercel)
 
-# Install dependencies
-pip install -r requirements.txt
+This project is optimized for a single-url deployment using Vercel. Both the Docusaurus book and the AI assistant are hosted together.
 
-# (Optional) Re-index the book content if you changed markdown files
-python indexer.py
+### 🛠️ Setup & Deployment
 
-# Run the API Server
-python api.py
-```
-*The server will start at `http://localhost:8000`*
+1.  **Environment Variable**: Add `GEMINI_API_KEY` to your Vercel project settings.
+2.  **Root Directory**: Ensure Vercel is set to use the `book` directory as the root.
+3.  **Push to GitHub**: Simply push your changes to the `main` branch, and Vercel will handle the rest.
 
-#### 2. Start the Frontend (Book)
-Open a new terminal:
+### 📂 Project Structure
+- `book/` - Frontend (Docusaurus) + Backend (Vercel API)
+- `book/api/` - Serverless AI Assistant (Python)
+- `book/docs/` - Book content (Markdown)
+- `rag_chatbot/` - (Optional) Legacy local backend/indexer
+
+## 📖 Access the Book
+Once deployed, visit your Vercel URL (e.g., `https://physical-ai-humanoid-robotics.vercel.app`) to read the book and chat with the AI!
 ```bash
 cd book
 npm install
